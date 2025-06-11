@@ -4,19 +4,23 @@ I use this to start base project in React.
 
 ## What it's using?
 
-- Vite
-  For local HTTP server.
+- [Vite](https://vitejs.dev/)
+  For build and local development.
 
-- TailwindCSS
+- [TailwindCSS](https://tailwindcss.com/)
   A utility-first CSS framework.
+
+- [Prettier](https://prettier.io/)
+  An opinionated code formatter on save.
 
 ## What it's different from doing manually?
 
-- Better .gitignore.
-- Already configured TailwindCSS with Vite.
-- Already configured Eslint rules.
+- Better **.gitignore**.
+- Already installed **TailwindCSS** with Vite.
+- Already installed **Eslint** rules.
 - Removed mock files and folders.
 - Add folder structure.
+- Already installed **Prettier** and configured to work with Eslint.
 
 ## Initial configuration
 
