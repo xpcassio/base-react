@@ -2,7 +2,7 @@
 
 I use this to start base project in React.
 
-## What it's using?
+## What it's using on the fly?
 
 - [Vite](https://vitejs.dev/)
   For build and local development.
@@ -42,17 +42,9 @@ I use this to start base project in React.
 
 3. Run `npm i` to install dependencies
 
-## How to remove Git
+## Docs
 
-1. Remove git track with `rm -rf .git`
-
-## How to remove Tailwindcss
-
-1. Remove Tailwindcss from the configuration on `./vite.config.ts`
-2. Run `npm remove @tailwindcss/vite && npm remove tailwindcss` to remove plugins
-3. Delete imports inside the `./src/App.css` file
-
-## How to add boostrap
-
-1. Run `npm install react-bootstrap` e `npm install bootstrap`
-2. Adicione `import 'bootstrap'` no arquivo `./src/App.tsx`
+[TailwindCSS](public/docs/tailwindcss.md)
+[NPM](public/docs/npm.md)
+[Bootstrap](public/docs/bootstrap.md)
+[Git](public/docs/git.md)
